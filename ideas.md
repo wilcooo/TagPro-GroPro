@@ -1,6 +1,0 @@
-- Chat notifications when on another tab/window
-- Chat beeps and boops and bwleps
-- Welcome message for people without the script
-- Link to a connected Mumble Group (for both teams)
-- Voting for maps
-- Option for everyone to edit maps/settings
