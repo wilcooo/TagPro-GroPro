@@ -4,6 +4,7 @@
 // @description  Enhance your group experience!
 // @author       Ko
 // @icon         https://raw.githubusercontent.com/wilcooo/TagPro-GroPro/master/G(roPro).png
+// @icon         https://raw.githubusercontent.com/wilcooo/TagPro-GroPro/master/tpgp.user.js
 // @include      http://tagpro-*.koalabeast.com*
 // @grant        GM_notification
 // ==/UserScript==
