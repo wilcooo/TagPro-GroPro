@@ -10,4 +10,11 @@ Get the most out of groups on the TagPro server
 - Welcome message for people without the script
 - Link to a connected Mumble Group (for both teams)
 - Voting for maps
-- Option for everyone to edit maps/settings
+- Option for multiple admins (admin can appoint 'sub-admins')
+- Auto-kick AFK players
+- Map playlist (automatically proceed playing when the game ends, very lazy I know)
+- Making use of the 'spec glitch'?? If it exists
+- Player whitelist/blacklist
+- Private games with less than 4 players
+- Setting presets (just like the 'competitive-settings', but more variaty)
+- DON'T MISS MESSAGES THAT ARE SENT DURING JOINING/LEAVING A GAME OR GOING TO ANOTHER PAGE
