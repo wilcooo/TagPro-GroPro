@@ -18,3 +18,5 @@ Get the most out of groups on the TagPro server
 - Private games with less than 4 players
 - Setting presets (just like the 'competitive-settings', but more variaty)
 - DON'T MISS MESSAGES THAT ARE SENT DURING JOINING/LEAVING A GAME OR GOING TO ANOTHER PAGE
+- Save the chat log, so that after a refresh or game the old messages are still there
+
