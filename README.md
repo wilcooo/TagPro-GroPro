@@ -6,6 +6,8 @@ Get the most out of groups on the TagPro server
 - [x] Name color (red/blue), timestamps, color new & unread messages
 - [x] Chat beeps and boops and bwleps
 - [ ] Send messages longer than 120 characters (For people without the script it'll look like multiple messages)
+- [x] Arrow up/down lets you send a message that you've sent before
+- [ ] Edit previously sent messages (For people without the script it'll look like a new message)
 - [ ] LastSeen time next to players (after 30 seconds, they auto-disconnect)
 - [ ] Welcome message for people without the script
 - [ ] Link to a connected Mumble Group (for both teams)
