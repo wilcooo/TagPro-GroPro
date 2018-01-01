@@ -10,7 +10,7 @@ Get the most out of groups on the TagPro server
 - [ ] Don't scroll down for new messages when you are reading old messages (instead show an arrow)
 - [ ] Edit previously sent messages (For people without the script it'll look like a new message)
 - [ ] LastSeen time next to players (after 30 seconds, they auto-disconnect)
-- [ ] Group description, can be set by the admin(s) and is shown to everyone (and also sent to those without the script)
+- [x] Group description, can be set by the admin(s) and is shown to everyone (and also sent to those without the script)
 - [ ] Auto-reply: whenever someone mentions you, that message is sent.
 - [ ] Link to a connected Mumble Group (for both teams)
 - [ ] Voting for maps
