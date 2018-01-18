@@ -24,6 +24,7 @@ Get the most out of groups on the TagPro server
 ### Random ideas for future updates
 - [ ] Integration with [rankedPUGs](http://www.lejdesigns.com/rankedPUGs/index.php)
 - [ ] Edit previously sent messages (For people without the script it'll look like a new message)
+- [ ] Group icon (that also shows up on notifications). Can for example be set to a leagues' logo
 - [ ] LastSeen time next to players (after 30 seconds, they auto-disconnect)
 - [ ] Auto-reply: whenever someone mentions you, a pre-set message is sent.
 - [ ] Voting for maps (Everyone has a vote), maybe other settings/teams/whatever too
