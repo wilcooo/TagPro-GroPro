@@ -20,6 +20,7 @@ Get the most out of groups on the TagPro server
 - [ ] Setting presets (just like the 'competitive-settings', but more variaty)
 - [ ] Save the chat log, so that after a refresh or game the old messages are still there
 - [ ] Highlight leader in chat
+*Probably some more from the list below*
 
 ### Random ideas for future updates
 - [ ] Integration with [rankedPUGs](http://www.lejdesigns.com/rankedPUGs/index.php)
