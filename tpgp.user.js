@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         TagPro GroPro
-// @version      1.0
+// @version      1.1
 // @description  Enhance your group experience!
 // @author       Ko
 // @supportURL   https://www.reddit.com/message/compose/?to=Wilcooo
@@ -62,6 +62,11 @@ const prevent_scroll = true;                                                    
 // a single click from there too. When already in a group, it shows only that one.    //  //
 const groups_on_home = true;                                                          //  //
                                                                                       //  //
+// Position on homepage ( can be 'top', 'home', or 'bottom' )                         //  //
+// 'home' means beneath the video on the homepage                                     //  //
+// TODO: link to a picture that explains these positions                              //  //
+const position = 'top';                                                               //  //
+                                                                                      //  //
 // Shows the group description as set by the leader/admins                            //  //
 // If there is no description, and when you don't have the rights to edit,            //  //
 // it is still hidden. Not recommended to turn off, because you could miss important  //  //
@@ -118,16 +123,6 @@ console.log('START: ' + GM_info.script.name + ' (v' + version + ' by ' + GM_info
 
 
 
-
-// Homepage ( can be 'top', 'home', or 'bottom' )
-// TODO: link to a picture that explains these positions
-const position = 'top';
-
-// Userscripts that load before this one usually get a higher
-// position on the homepage. You could change the order that userscripts
-// load in, but with this option the script will make sure that the groups
-// are placed right under the intro video.
-
 // Userscripts load in the order that they appear in Tamermonkey.
 // Set this option to true if you want this script to be inserted to
 // the page above than previously load scripts, instead of below.
@@ -138,7 +133,7 @@ const insertBefore = false;
 if (window.location.pathname === '/groups') {  // If we are on the groups selection page
 }
 
-if (window.location.pathname.match(/^\/groups\/[a-z]{8}$/)) {  // If we are in a group
+else if (window.location.pathname.match(/^\/groups\/[a-z]{8}$/)) {  // If we are in a group
 
     tagpro.ready( function(){
 
@@ -656,13 +651,13 @@ if (window.location.pathname.match(/^\/groups\/[a-z]{8}$/)) {  // If we are in a
 
 }
 
-if (window.location.pathname === '/games/find') {  // In the process of joining a game
+else if (window.location.pathname === '/games/find') {  // In the process of joining a game
 }
 
-if (window.location.port.match(/^8[0-9]{3}$/)) {  // If we are in a game
+else if (window.location.port.match(/^8[0-9]{3}$/)) {  // If we are in a game
 }
 
-if (window.location.pathname === '/') {  // If we are on the homepage
+else if (window.location.pathname === '/') {  // If we are on the homepage
 
     if (groups_on_home) {
 
