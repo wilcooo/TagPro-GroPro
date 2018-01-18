@@ -5,6 +5,7 @@ Get the most out of groups on the TagPro server
 
 ### version 1.0: The basics
 - [x] Chat notifications when on another tab/window
+- [x] A ready system, click a button to put 'ready' beneath your name
 - [x] Name color (red/blue), timestamps, color new & unread messages
 - [x] Chat beeps and boops and bwleps (sounds)
 - [x] Send messages longer than 120 characters (For people without the script it'll look like multiple messages)
