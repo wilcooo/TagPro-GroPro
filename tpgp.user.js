@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         TagPro GroPro
-// @version      1.2
+// @version      1.1
 // @description  Enhance your group experience!
 // @author       Ko
 // @supportURL   https://www.reddit.com/message/compose/?to=Wilcooo
@@ -9,7 +9,6 @@
 // @download     https://raw.githubusercontent.com/wilcooo/TagPro-GroPro/master/tpgp.user.js
 // @match        http://*.koalabeast.com:*/*
 // @grant        GM_notification
-// @require      https://greasyfork.org/scripts/40189-tagpro-groups-on-homepage/code/TagPro%20Groups%20on%20Homepage.user.js
 // @license      MIT
 // ==/UserScript==
 
